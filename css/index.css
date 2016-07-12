@@ -1,0 +1,9 @@
+path:hover{
+    
+    stroke:#00aeff;
+    pointer-events:all;
+}
+
+path {
+    stroke:#dbdbdb;
+}
