@@ -2,41 +2,134 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <title>SVG</title>
 </head>
 <body>
-    <svg height="900" width="660">
-           <defs>
-    <pattern id="image" patternUnits="userSpaceOnUse" width="43" height="52">
-      <image xlink:href="images/internet_security.png" x=57 y=30 width="43" height="52" />
-    </pattern>
-       </defs>
-        <g>
-  <path d="M47 0 L95 30 L95 80 L47 110 L0 80 L0 30 Z"  fill="url(#image)" />
-  <path d="M157 0 L205 30 L205 80 L157 110 L110 80 L110 30 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M267 0 L315 30 L315 80 L267 110 L220 80 L220 30 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M377 0 L425 30 L425 80 L377 110 L330 80 L330 30 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M487 0 L535 30 L535 80 L487 110 L440 80 L440 30 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M597 0 L645 30 L645 80 L597 110 L550 80 L550 30 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
- 
-  <path d="M102 98 L150 128 L150 178 L102 208 L56 178 L56 128 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M212 98 L260 128 L260 178 L212 208 L166 178 L166 128 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M322 98 L370 128 L370 178 L322 208 L276 178 L276 128 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M432 98 L480 128 L480 178 L432 208 L386 178 L386 128 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M542 98 L590 128 L590 178 L542 208 L496 178 L496 128 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
+    <div class="tools_wrapper">
+        <section class="tools_content">
+            <h1 class="tools_heading">What we have to keep your Mac<span class="clean_save"> clean and safe</span></h1>
+            <div class="float_left">
+                <svg height="320" width="646">
+               <defs>
+                    <pattern id="mk_human_inside" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/human_inside.png" x=22 y=30 width="50" height="50" />
+                    </pattern>
+                    <pattern id="mk_av" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/internet_security.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_anti_theft" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/anti_theft.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_fast_cleanup" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/fast_cleanup.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                     <pattern id="mk_duplicate_finder" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/duplicate_finder.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_geek_on_demand" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/geek_on_demand.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_update_tracker" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/update_tracker.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_backup" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/backup.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                     <pattern id="mk_file_recovery" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/file_recovery.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_disk_usage" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/disk_usage.png" x=30 y=25 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_smart_uninstaller" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/smart_uninstaller.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_data_encryptor" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/data_encryptor.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_default_apps" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/default_apps.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_shredder" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/shredder.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_files_finder" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/files_finder.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_login_items" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/login_items.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+                    <pattern id="mk_memory_cleaner" x="0" y="0" width="1" height="1">
+                      <image xlink:href="images/memory_cleaner.png" x=25 y=30 width="43" height="52" />
+                    </pattern>
+               </defs>
+                <g>
+                    <rect  width="100%" height="100%" fill="#f3f6f8"></rect>
+                </g>
+                <g>
+                    <path class="white" d="M47 0 L95 30 L95 80 L47 110 L0 80 L0 30 Z" />
+                    <path class="white" d="M157 0 L205 30 L205 80 L157 110 L110 80 L110 30 Z" />
+                    <path class="white" d="M267 0 L315 30 L315 80 L267 110 L220 80 L220 30 Z" />
+                    <path class="white" d="M377 0 L425 30 L425 80 L377 110 L330 80 L330 30 Z" />
+                    <path class="white" d="M487 0 L535 30 L535 80 L487 110 L440 80 L440 30 Z" />
+                    <path class="white" d="M597 0 L645 30 L645 80 L597 110 L550 80 L550 30 Z" />
+                     
+                    <path class="white" d="M102 98 L150 128 L150 178 L102 208 L56 178 L56 128 Z" />
+                    <path class="white" d="M212 98 L260 128 L260 178 L212 208 L166 178 L166 128 Z" />
+                    <path class="white" d="M322 98 L370 128 L370 178 L322 208 L276 178 L276 128 Z" />
+                    <path class="white" d="M432 98 L480 128 L480 178 L432 208 L386 178 L386 128 Z" />
+                    <path class="white" d="M542 98 L590 128 L590 178 L542 208 L496 178 L496 128 Z" />
+                    
+                    <path class="white" d="M47 194 L95 224 L95 274 L47 304 L0 274 L0 224 Z" />
+                    <path class="white" d="M157 194 L205 224 L205 274 L157 304 L110 274 L110 224 Z" />
+                    <path class="white" d="M267 194 L315 224 L315 274 L267 304 L220 274 L220 224 Z" />
+                    <path class="white" d="M377 194 L425 224 L425 274 L377 304 L330 274 L330 224 Z" />
+                    <path class="white" d="M487 194 L535 224 L535 274 L487 304 L440 274 L440 224 Z" />
+                    <path class="white"d="M597 194 L646 224 L645 274 L597 304 L550 274 L550 224 Z" />
+                </g>
+                <g>
+                    <path class="click" d="M47 0 L95 30 L95 80 L47 110 L0 80 L0 30 Z"  fill="url(#mk_human_inside)" />
+                    <path d="M157 0 L205 30 L205 80 L157 110 L110 80 L110 30 Z" fill="url(#mk_av)"/>
+                    <path d="M267 0 L315 30 L315 80 L267 110 L220 80 L220 30 Z" fill="url(#mk_anti_theft)"/>
+                    <path d="M377 0 L425 30 L425 80 L377 110 L330 80 L330 30 Z" fill="url(#mk_fast_cleanup)"/>
+                    <path d="M487 0 L535 30 L535 80 L487 110 L440 80 L440 30 Z" fill="url(#mk_duplicate_finder)"/>
+                    <path d="M597 0 L645 30 L645 80 L597 110 L550 80 L550 30 Z" fill="url(#mk_geek_on_demand)"/>
+                     
+                    <path d="M102 98 L150 128 L150 178 L102 208 L56 178 L56 128 Z" fill="url(#mk_update_tracker)"/>
+                    <path d="M212 98 L260 128 L260 178 L212 208 L166 178 L166 128 Z" fill="url(#mk_backup)"/>
+                    <path d="M322 98 L370 128 L370 178 L322 208 L276 178 L276 128 Z" fill="url(#mk_file_recovery)"/>
+                    <path d="M432 98 L480 128 L480 178 L432 208 L386 178 L386 128 Z" fill="url(#mk_disk_usage)"/>
+                    <path d="M542 98 L590 128 L590 178 L542 208 L496 178 L496 128 Z" fill="url(#mk_smart_uninstaller)"/>
+                    
+                    <path d="M47 194 L95 224 L95 274 L47 304 L0 274 L0 224 Z" fill="url(#mk_data_encryptor)"/>
+                    <path d="M157 194 L205 224 L205 274 L157 304 L110 274 L110 224 Z" fill="url(#mk_default_apps)"/>
+                    <path d="M267 194 L315 224 L315 274 L267 304 L220 274 L220 224 Z" fill="url(#mk_shredder)"/>
+                    <path d="M377 194 L425 224 L425 274 L377 304 L330 274 L330 224 Z" fill="url(#mk_files_finder)"/>
+                    <path d="M487 194 L535 224 L535 274 L487 304 L440 274 L440 224 Z" fill="url(#mk_login_items)"/>
+                    <path d="M597 194 L646 224 L645 274 L597 304 L550 274 L550 224 Z" fill="url(#mk_memory_cleaner)"/>
+                </g>
+            Sorry, your browser does not support inline SVG.
+            </svg>
+        </div>
+        <div class="tools_right_part">
+            <div class= "tool_name">
+                <div class="img_wrapper">
+                    <img ID="memory_cleaner" alt='sprite' src="images/transparent.png"/>
+                </div>
+                <p>Memory Cleaner</p>
+            </div>
+            <div class="tool_description">
+                <p>Automatically optimizes and monitors<br> your Mac’s RAM memory while you<br> are performing your daily tasks.</p>
+                <button ID="btn_download">Download Now</button>
+            </div>
+        </div>
+        </section>
+    </div>
+<p class="clickp"> Here is a paragraph</p>
 
-  <path d="M47 194 L95 224 L95 274 L47 304 L0 274 L0 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M157 194 L205 224 L205 274 L157 304 L110 274 L110 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M267 194 L315 224 L315 274 L267 304 L220 274 L220 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M377 194 L425 224 L425 274 L377 304 L330 274 L330 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M487 194 L535 224 L535 274 L487 304 L440 274 L440 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-  <path d="M597 194 L646 224 L645 274 L597 304 L550 274 L550 224 Z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null"  stroke="#000000" fill="#FFF"/>
-        </g>
-
-
-  Sorry, your browser does not support inline SVG.
-</svg>
-<img src="images/internet_security.png"></img>
+<script   src="//code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

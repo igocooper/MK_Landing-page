@@ -1,3 +1,12 @@
+html {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400 ;
+    font-size: 10px;
+    color: #3a3a3a;
+}
+
+/*Tools part*/
+
 path:hover{
     
     stroke:#00aeff;
@@ -5,5 +14,100 @@ path:hover{
 }
 
 path {
+    
     stroke:#dbdbdb;
+}
+
+.white {
+    fill:#FFF;
+}
+
+.tools_wrapper {
+    background-color: #f3f6f8;
+    height: 500px;
+}
+
+.tools_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tools_heading {
+    font-size: 2.4em; 
+    font-weight: 200;
+    padding:40px 0;
+    text-align: center;
+
+}
+.clean_save {
+    color: #00aeff;
+}
+
+.float_left {
+    float: left;
+}
+
+/*Tool right part*/ 
+
+.tools_right_part {
+    margin-left: 696px;
+    border-radius: 5px; 
+    border: 1px solid #dbdbdb;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.tools_right_part:after {
+    clear: both;
+}
+
+.tool_name {
+    border-bottom : 1px solid #dbdbdb;
+    text-transform: uppercase;
+    
+}
+
+.tool_name p {
+    margin-top: 10px;
+    text-align: center;
+    margin: 17px 0;
+    
+}
+
+.tool_description {
+    line-height: 24px;
+    background-color: #FFF;
+    height: 185px;
+    color: #737373;
+    vertical-align: center;
+    text-align: center;
+    padding-top: 34px;
+}
+
+#btn_download {
+    border-radius: 5px;
+    border:1px solid #00aeff;
+    color:#00aeff;
+    font-weight: 600;
+    padding: 17px 38px;
+    background-color: #FFF;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+#btn_download:hover {
+    color:#FFF;
+    background-color:#00aeff; 
+}
+
+.img_wrapper {
+    padding-top: 17px;
+    width: 80px;
+    margin:0 auto;
+}
+
+#memory_cleaner {
+    height: 80px;
+    width: 75px;
+    background: url("images/sprite_icon.png") -182px -12px;
 }
