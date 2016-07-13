@@ -5,12 +5,20 @@ html {
     color: #3a3a3a;
 }
 
-/*Tools part*/
+a {color:#00aeff;}
+a:active {color:#00aeff;}
+a:visited {color:#00aeff;}
+a:hover {color:#00aeff;}
+
+/*Tools part Starts*/
+
+/*SVG starts*/
 
 path:hover{
     
     stroke:#00aeff;
     pointer-events:all;
+    filter:url(#shadow);
 }
 
 path {
@@ -22,9 +30,80 @@ path {
     fill:#FFF;
 }
 
+
+.mk_human_inside {
+    fill:url(#mk_human_inside);
+}
+
+.mk_av {
+    fill:url(#mk_av);
+}
+
+.mk_anti_theft {
+    fill:url(#mk_anti_theft);
+}
+
+.mk_fast_cleanup {
+    fill:url(#mk_fast_cleanup);
+}
+
+.mk_duplicate_finder {
+    fill:url(#mk_duplicate_finder);
+}
+
+.mk_geek_on_demand {
+    fill:url(#mk_geek_on_demand);
+}
+
+.mk_update_tracker {
+    fill:url(#mk_update_tracker);
+}
+
+.mk_backup {
+    fill:url(#mk_backup);
+}
+
+.mk_file_recovery {
+    fill:url(#mk_file_recovery);
+}
+    
+.mk_disk_usage {
+    fill:url(#mk_disk_usage);
+}
+
+.mk_smart_uninstaller {
+    fill:url(#mk_smart_uninstaller);
+}
+
+.mk_data_encryptor {
+    fill:url(#mk_data_encryptor);
+}
+
+.mk_default_apps {
+    fill:url(#mk_default_apps);
+}
+
+.mk_shredder {
+    fill:url(#mk_shredder);
+}
+
+.mk_files_finder {
+    fill:url(#mk_files_finder);
+}
+
+.mk_login_items {
+    fill:url(#mk_login_items);
+}
+
+.mk_memory_cleaner {
+    fill:url(#mk_memory_cleaner);
+}
+
+/*SVG ends*/
+
 .tools_wrapper {
     background-color: #f3f6f8;
-    height: 500px;
+    height: 520px;
 }
 
 .tools_content {
@@ -77,11 +156,17 @@ path {
 .tool_description {
     line-height: 24px;
     background-color: #FFF;
-    height: 185px;
+    height: 205px;
     color: #737373;
     vertical-align: center;
     text-align: center;
     padding-top: 34px;
+}
+
+.tool_description p {
+    padding:0 24px;
+    height: 96px;
+    overflow: scroll;
 }
 
 #btn_download {
@@ -96,18 +181,133 @@ path {
 }
 
 #btn_download:hover {
-    color:#FFF;
+    outline: none;
     background-color:#00aeff; 
+}
+
+#btn_download:hover a {
+    color:#FFF;
 }
 
 .img_wrapper {
     padding-top: 17px;
-    width: 80px;
+    width: 75px;
     margin:0 auto;
 }
 
-#memory_cleaner {
-    height: 80px;
+.memory_cleaner {
+    height: 84px;
     width: 75px;
     background: url("images/sprite_icon.png") -182px -12px;
 }
+
+.human_inside {
+    height: 84px;
+    width: 79px;
+    background: url("images/sprite_icon.png") 0px -12px;
+    
+}
+
+.av {
+    height: 84px;
+    width: 70px;
+    background: url("images/sprite_icon.png") -1270px -12px;
+    
+}
+
+.anti_theft {
+    height: 84px;
+    width: 84px;
+    background: url("images/sprite_icon.png") -264px -12px;
+    
+}
+
+.fast_cleanup {
+    height: 84px;
+    width: 82px;
+    background: url("images/sprite_icon.png") -1340px -12px;
+    
+}
+
+.duplicate_finder {
+    height: 84px;
+    width: 90px;
+    background: url("images/sprite_icon.png") -1424px -12px;
+    
+}
+
+.duplicate_finder {
+    height: 84px;
+    width: 90px;
+    background: url("images/sprite_icon.png") -1424px -12px;
+    
+}
+
+.geek_on_demand {
+    height: 84px;
+    width: 92px;
+    background: url("images/sprite_icon.png") -80px -12px;
+}
+
+.update_tracker {
+    height: 84px;
+    width: 88px;
+    background: url("images/sprite_icon.png") -1090px -12px;
+}
+
+.backup {
+    height: 84px;
+    width: 90px;
+    background: url("images/sprite_icon.png") -357px -12px;
+    
+}
+
+.file_recovery {
+    height: 84px;
+    width: 80px;
+    background: url("images/sprite_icon.png") -1177px -12px;
+}
+
+.disk_usage {
+    height: 84px;
+    width: 100px;
+    background: url("images/sprite_icon.png") -990px -12px;
+}
+
+.smart_uninstaller {
+    height: 84px;
+    width: 90px;
+    background: url("images/sprite_icon.png") -889px -12px;
+}
+
+.data_encryptor {
+    height: 84px;
+    width: 80px;
+    background: url("images/sprite_icon.png") -536px -7px;
+}
+
+.default_apps {
+    height: 84px;
+    width: 80px;
+    background: url("images/sprite_icon.png") -456px -12px;
+}
+
+.shredder {
+    height: 84px;
+    width: 82px;
+    background: url("images/sprite_icon.png") -795px -12px;
+}
+
+.files_finder {
+    height: 84px;
+    width: 90px;
+    background: url("images/sprite_icon.png") -699px -12px;
+}
+
+.login_items {
+    height: 84px;
+    width: 72px;
+    background: url("images/sprite_icon.png") -625px -12px;
+}
+
+/*Tools part Ends*/
