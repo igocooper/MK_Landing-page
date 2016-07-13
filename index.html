@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <title>SVG</title>
+    <title>Landing Page Test project</title>
 </head>
 <body>
-    <div class="tools_wrapper">
+  <header>
+    <div class="header_content">
+      <img class="mk_logo" src="images/mk_logo.png"/>
+      <img ID="arrow" src="images/arrow.png"/>
+      <p><span class="frame">3</span> easy steps to clean up your mac!</p>
+    </div>
+  </header>
+  <main> 
+   <section class="steps_content">
+     <section class="left_col">
+       <div class="step step1">
+         <p><span class="step_txt">Step 1:</span> Click <span ID='download_now_txt'>“Download now”</span></p>
+       </div>
+       <div class="step step2">
+         <p><span class="step_txt">Step 2:</span> Click <span class='bold'>“Run”</span> or <span class="bold">“Save”</span></p>
+       </div>
+       <div class="step step3">
+         <p><span class="step_txt">Step 3:</span> Scan your mac</p>
+       </div>
+       <button class="btn_download_lg"><a href="//mackeeper.com/download" target="_blank">Download Now</a></button>
+       <div ID="download_here_txt"><a href="//mackeeper.com/download" target="_blank">or Click here to download</a></div>
+     </section>
+     <section class="right_col">
+       <div class="gif"><img src="images/cloud.png" ID="cloud"/></div>
+       <div wrapper>
+         <div class="this_week_download"></div>
+         <div class="shopper_approved"></div>
+       </div>
+     </section>
+   </section>
+   <div class="line"></div>
+  <!-- MacKeeper Tools part starts-->
+   <div class="tools_wrapper">
         <section class="tools_content">
             <h1 class="tools_heading">What we have to keep your Mac<span class="clean_save"> clean and safe</span></h1>
             <div class="float_left">
                 <svg height="320" width="646">
-               <defs>
+                <defs>
                     <filter id="shadow" x="0" y="0" width="200%" height="200%">
                         <feOffset result="offOut" in="SourceGraphic" dx="-1" dy="3" />
                         <feColorMatrix result = "matrixOut" in = "offOut" type = "matrix" values = "0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.2 0 0 0 0 0 0.4 0"/>
@@ -111,9 +143,9 @@
             </div>
         </div>
         </section>
-    </div>
-<p class="clickp"> Here is a paragraph</p>
-
+   </div>
+  </main>
+<!--MacKeeper Tools Part Ends-->
 <script   src="//code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/index.js"></script>
 </body>
