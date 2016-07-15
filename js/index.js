@@ -1,6 +1,6 @@
 $(function(){
 
-	$('.mk_human_inside').on('click',function (e) {
+	$('.mk_human_inside').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('human_inside');
         var tool_description = 'Your personal assistant has the <br> solution for your technical problem - whether it is a minor annoyance or a catastrophic failure.';
@@ -11,7 +11,7 @@ $(function(){
         
         });
 
-    $('.mk_av').on('click',function (e) {
+    $('.mk_av').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('av');
         var tool_description = 'Protect your Mac from phishing <br> attacks, malware, spyware, adware, <br>viruses and identity theft while you&#39re using the Internet.';
@@ -23,7 +23,7 @@ $(function(){
         
         });
         
-    $('.mk_anti_theft').on('click',function (e) {
+    $('.mk_anti_theft').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('anti_theft');
         var tool_description = 'If your Mac gets stolen, Anti-Theft will track its location and even make an iSight snapshot of the thief.';
@@ -34,7 +34,7 @@ $(function(){
         
         });
 
-    $('.mk_fast_cleanup').on('click',function (e) {
+    $('.mk_fast_cleanup').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('fast_cleanup');
         var tool_description = 'Quickly remove junk files (such as<br> temporary caches, logs, unused <br>language packages and legacy <br>application parts) that may take<br> up hard drive space and slow <br>down your Mac.';
@@ -46,7 +46,7 @@ $(function(){
         
         });
         
-    $('.mk_duplicate_finder').on('click',function (e) {
+    $('.mk_duplicate_finder').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('duplicate_finder');
         var tool_description = 'Delete unnecessary copies of your files and free up disk space on your Mac.';
@@ -57,7 +57,7 @@ $(function(){
         
         });
         
-     $('.mk_geek_on_demand').on('click',function (e) {
+     $('.mk_geek_on_demand').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('geek_on_demand');
         var tool_description = 'Geek on Demand is the ultimate<br> tool when you have a problem<br> or question that is related to your<br> Mac&#39s health and need an expert&#39s<br> opinion or technical assistance.';
@@ -68,7 +68,7 @@ $(function(){
         
         });
         
-    $('.mk_update_tracker').on('click',function (e) {
+    $('.mk_update_tracker').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('update_tracker');
         var tool_description = 'With Update Tracker you will never miss out any important security patches and upgrades for most of your applications.';
@@ -79,7 +79,7 @@ $(function(){
         
         });
         
-    $('.mk_backup').on('click',function (e) {
+    $('.mk_backup').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('backup');
         var tool_description = 'Backing up your important files and folders is an easy, fast and reliable way to keep them safe and secure.';
@@ -90,7 +90,7 @@ $(function(){
         
         });
         
-    $('.mk_file_recovery').on('click',function (e) {
+    $('.mk_file_recovery').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('file_recovery');
         var tool_description = 'Now you can recover files that were once deleted from the Trash!.';
@@ -101,7 +101,7 @@ $(function(){
         
         });
         
-    $('.mk_file_recovery').on('click',function (e) {
+    $('.mk_file_recovery').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('file_recovery');
         var tool_description = 'Now you can recover files that were once deleted from the Trash!.';
@@ -112,7 +112,7 @@ $(function(){
         
         });  
         
-    $('.mk_disk_usage').on('click',function (e) {
+    $('.mk_disk_usage').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('disk_usage');
         var tool_description = 'Visualize the size of the folders on<br> your hard drive so you can tell at<br> a glance which folders are taking<br> up the most space.';
@@ -123,7 +123,7 @@ $(function(){
         
         });  
         
-    $('.mk_smart_uninstaller').on('click',function (e) {
+    $('.mk_smart_uninstaller').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('smart_uninstaller');
         var tool_description = 'Prevent future junk by making sure that you&#39re not just sweeping old applications under the rug when you are trying to delete them.';
@@ -134,7 +134,7 @@ $(function(){
         
         });  
         
-    $('.mk_data_encryptor').on('click',function (e) {
+    $('.mk_data_encryptor').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('data_encryptor');
         var tool_description = 'Make your restricted files absolutely invisible to anyone without the right password, protecting even your most sensitive information.';
@@ -145,7 +145,7 @@ $(function(){
         
         });
         
-    $('.mk_default_apps').on('click',function (e) {
+    $('.mk_default_apps').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('default_apps');
         var tool_description = 'The easiest way to define which application will open each file type.';
@@ -156,7 +156,7 @@ $(function(){
         
         });
         
-    $('.mk_shredder').on('click',function (e) {
+    $('.mk_shredder').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('shredder');
         var tool_description = 'Securely delete files and folders that you don&#39t ever want to be recovered.';
@@ -167,7 +167,7 @@ $(function(){
         
         });
         
-    $('.mk_files_finder').on('click',function (e) {
+    $('.mk_files_finder').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('files_finder');
         var tool_description = 'Quickly search for and find any lost or misplaced file, even if you don&#39t know in which folder it is located.';
@@ -178,7 +178,7 @@ $(function(){
         
         });
     
-    $('.mk_login_items').on('click',function (e) {
+    $('.mk_login_items').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('login_items');
         var tool_description = 'Take control of how fast your Mac boots up by deciding which applications launch every time you start it';
@@ -189,7 +189,7 @@ $(function(){
         
         });
         
-    $('.mk_memory_cleaner').on('click',function (e) {
+    $('.mk_memory_cleaner').click(function (e) {
 	    e.preventDefault();
         $('.img_wrapper img').removeClass().addClass('memory_cleaner');
         var tool_description = 'Automatically optimizes and monitors<br> your Mac’s RAM memory while you<br> are performing your daily tasks.';

@@ -395,7 +395,7 @@ path {
 .tools_right_part {
     margin-left: 696px;
     border-radius: 5px; 
-    border: 1px solid #dbdbdb;
+    border: 1px solid #dde3e7;
     font-weight: 400;
     font-size: 1.4em;
 }
@@ -405,7 +405,7 @@ path {
 }
 
 .tool_name {
-    border-bottom : 1px solid #dbdbdb;
+    border-bottom : 1px solid #dde3e7;
     text-transform: uppercase;
     
 }
