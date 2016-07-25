@@ -5,6 +5,10 @@ html {
     color: #3a3a3a;
 }
 
+body {
+    background-color: #FFF;
+}
+
 a {color:#FFF;}
 a:active {color:#00aeff;}
 a:visited {color:#00aeff;}
