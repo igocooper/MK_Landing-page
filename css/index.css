@@ -449,6 +449,10 @@ path {
     font-family: proxima-nova, sans-serif;
 }
 
+#btn_download {
+    color:#00aeff;
+}
+
 #btn_download:hover {
     outline: none;
     background-color:#00aeff; 
