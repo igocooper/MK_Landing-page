@@ -1,720 +1,587 @@
-html {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400 ;
-    font-size: 10px;
-    color: #3a3a3a;
-}
-
-body {
-    background-color: #FFF;
-}
-
-a {color:#FFF;}
-a:active {color:#00aeff;}
-a:visited {color:#00aeff;}
-a:hover {color:#00aeff;}
-
-/*Header*/
-
 header {
-    width: 100%;
-    background-color: #fafdff;
-    box-shadow: 0 5px 5px #cfcdcd;
-    height: 74px;
-    margin-bottom: 59px;
-    
-}
-
-.header_content {
-    position: relative;
-    width: 1000px;
-    margin: 0 auto;
-}
-
-.mk_logo {
-    width: 134px;
-    height: 30px;
-    float:left;
-    margin: 20px 0;
-}
-
-header p {
+  width: 100%;
+  background-color: #fafdff;
+  box-shadow: 0 5px 5px #cfcdcd;
+  margin-bottom: 59px; }
+  header p {
     font-size: 3.6em;
     font-weight: 200;
-    color:#646464;
+    color: #646464;
     line-height: 72px;
-    margin-left:25%;
-}
+    margin-left: 25%; }
+
+.header_content {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto; }
+
+.mk_logo {
+  width: 134px;
+  height: 30px;
+  float: left;
+  margin: 20px 0; }
 
 .frame {
-    border-radius: 5px;
-    border: 1px solid #00aeff;
-    padding:6px 9px;
-}
+  border: 1px solid #00aeff;
+  border-radius: 5px;
+  padding: 6px 9px; }
 
 #arrow {
-    position: absolute;
-    top:0;
-    left:176px;
-}
+  position: absolute;
+  top: -2px;
+  left: 176px; }
 
-/*Header Ends*/
-
-/*Steps Part Starts*/
 .steps_content {
-    width: 1000px;
-    margin: 0 auto;
-    
-}
+  width: 1000px;
+  margin: 0 auto; }
 
 .left_col {
-    float: left;
-    width: 387px;
-}
+  float: left;
+  width: 387px; }
 
-.step {
-    color: #414141;
-    font-size: 1.8em;
-    font-weight: 200;
-    border:1px solid #dde3e7;
-    padding-left:70px;
-    height: 70px;
-    width: 317px;
-    margin-bottom: 19px;
-    background-position: 22px 22px;
-    background-repeat: no-repeat;
-}
+.right_col {
+  margin-left: 389px; }
+
+.step, .step1, .step2, .step3 {
+  color: #414141;
+  font-size: 1.8em;
+  font-weight: 200;
+  border: 1px solid #dde3e7;
+  padding-left: 70px;
+  height: 70px;
+  width: 317px;
+  margin-bottom: 19px;
+  background-position: 22px 22px;
+  background-repeat: no-repeat; }
+  .step p, .step1 p, .step2 p, .step3 p {
+    line-height: 70px; }
 
 .step1 {
-    background-image: url(images/step1_icon.png);
-}
+  background-image: url(images/step1_icon.png); }
 
 .step2 {
-    background-image: url(images/step2_icon.png);
-}
+  background-image: url(images/step2_icon.png); }
 
 .step3 {
-    background-image: url(images/step3_icon.png);
-    margin-bottom: 39px;
-}
-
-.step p {
-    line-height: 70px;
-}
+  background-image: url(images/step3_icon.png); }
 
 .step_txt {
-    font-weight: 600;
-    margin-right:5px;
-    text-transform: uppercase;
-}
+  font-weight: 600;
+  margin-right: 5px;
+  text-transform: uppercase; }
 
 #download_now_txt {
-    color:#00aeff;
-    font-weight: 400;
-   
-}
+  color: #00aeff;
+  font-weight: 400; }
 
 .bold {
-    font-weight: 600;
-}
+  font-weight: 600; }
 
 .btn_download_lg {
-    background:url(images/download_btn_icon.png), #00afff;
-    border-radius:5px;
-    background-repeat: no-repeat;
-    background-position: 328px 18px;
-    border:none;
-    outline: none;
-    width: 387px;
-    height: 79px;
-    padding: 0;
-}
-
-.btn_download_lg:hover { background-color: #00a2ff;}
-
-.btn_download_lg a   {
+  background: url(images/download_btn_icon.png), #00afff;
+  background-repeat: no-repeat;
+  background-position: 328px 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 387px;
+  height: 79px;
+  padding: 0; }
+  .btn_download_lg a {
     color: #FFF;
     font-weight: 400;
     font-size: 21px;
-    text-transform: uppercase;
-    font-family: proxima-nova, sans-serif;
-}
-
-.right_col {
-    margin-left: 389px;
-    
-}
+    text-transform: uppercase; }
+  .btn_download_lg:hover {
+    background-color: #00a2ff; }
 
 .gif {
-    position: relative;
-    height: 325px;
-    background-image:url(images/mac_animated.gif);
-    background-repeat: no-repeat;
-    background-position: 0 -34px ;
-    
-}
+  position: relative;
+  height: 325px;
+  background-image: url(images/mac_animated.gif);
+  background-repeat: no-repeat;
+  background-position: 0 -34px; }
 
 #cloud {
-    position: absolute;
-    top:-34px;
-    left:110px;
-}
-
+  position: absolute;
+  top: -34px;
+  left: 110px; }
 
 #download_here_txt {
-
-    padding-top: 14px;
-    text-align: center;
-}
-
-#download_here_txt a{
+  padding-top: 14px;
+  text-align: center; }
+  #download_here_txt a {
     font-size: 1.4em;
     color: #018fd0;
-    text-decoration: underline;
-    
-}
-
-
-.shopper_approved {
-    background-image: url(images/shopper_approved.png);
-    background-repeat: no-repeat;
-    background-position: 0 0 ;
-    height: 54px;
-    margin-left: 357px;
-    
-   
-}
-
-.this_week_download {
-    background-image: url(images/this_week_download.png);
-    background-repeat: no-repeat;
-    background-position: 113px 0 ;
-    height: 54px;
-    width: 317px;
-    float: left;
-}
+    text-decoration: underline; }
 
 .line {
-    border-bottom:1px solid #dde3e7; 
-    height: 62px;
-    margin-bottom: 20px;
-
-/*Steps Part Ends*/
-
-/*trus Part Starts*/
-
-}
+  border-bottom: 1px solid #dde3e7;
+  height: 62px;
+  margin-bottom: 20px; }
 
 .trust_wrapper {
-    width: 1000px;
-    margin: 0 auto;
-    height: 75px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 75px; }
 
-}
+.shopper_approved {
+  background-image: url(images/shopper_approved.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 54px;
+  margin-left: 357px; }
 
-.cnn {
-    background-image: url(images/cnn.png);
-    background-repeat:no-repeat;
-    background-position: 0 11px;
-    height: 75px;
-    width: 66px;
-    margin-left: 134px;
-    float: left;
-    
-}
-
-.cnn:hover {
-    background-image: url(images/cnn_hover.png);
-    
-}
-
-.dezzain {
-    background-image: url(images/dezzain.png);
-    background-repeat:no-repeat;
-    background-position: 0 11px;
-    height: 75px;
-    width: 150px;
-    float: left;
-    margin-left: 99px;
-    
-}
-
-.dezzain:hover {
-    background-image: url(images/dezzain_hover.png);
-    
-}
+.this_week_download {
+  background-image: url(images/this_week_download.png);
+  background-repeat: no-repeat;
+  background-position: 113px 0;
+  height: 54px;
+  width: 317px;
+  float: left; }
 
 .forbes {
-    background-image: url(images/forbes.png);
-    background-repeat:no-repeat;
-    background-position: 0 11px;
-    height: 75px;
-    width: 109px;
-    margin-left: 75px;
-    float: left;
-    
-}
+  background-image: url(images/forbes.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+  float: left; }
+  .forbes:hover {
+    background-image: url(images/forbes_hover.png); }
 
-.forbes:hover {
-    background-image: url(images/forbes_hover.png);
-    
-}
+.dezzain {
+  background-image: url(images/dezzain.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+  float: left; }
+  .dezzain:hover {
+    background-image: url(images/dezzain_hover.png); }
 
 .machmachines {
-    background-image: url(images/machmachines.png);
-    background-repeat:no-repeat;
-    background-position: 0 11px;
-    height: 75px;
-    float: left;
-    width: 149px;
-    margin-left: 86px;
-    
-}
+  background-image: url(images/machmachines.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+  float: left; }
+  .machmachines:hover {
+    background-image: url(images/machmachines_hover.png); }
 
-.machmachines:hover {
-    background-image: url(images/machmachines_hover.png);
-    
-}
-/*Trust part Ends*/
+.cnn {
+  background-image: url(images/cnn.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+  float: left; }
+  .cnn:hover {
+    background-image: url(images/cnn_hover.png); }
 
-/*Tools part Starts*/
+.cnn {
+  height: 75px;
+  width: 66px;
+  margin-left: 134px; }
 
-/*SVG starts*/
+.forbes {
+  height: 75px;
+  width: 109px;
+  margin-left: 75px; }
 
-path:hover{
-    
-    stroke:#00aeff;
-    pointer-events:all;
-    filter:url(#shadow);
-}
+.machmachines {
+  height: 75px;
+  float: left;
+  width: 149px;
+  margin-left: 86px; }
+
+.dezzain {
+  height: 75px;
+  width: 150px;
+  float: left;
+  margin-left: 99px; }
 
 path {
-    
-    stroke:#dbdbdb;
-}
+  stroke: #dbdbdb; }
+  path:hover {
+    stroke: #00aeff;
+    pointer-events: all;
+    filter: url(#shadow); }
 
 .white {
-    fill:#FFF;
-}
-
+  fill: #FFF; }
 
 .mk_human_inside {
-    fill:url(#mk_human_inside);
-}
+  fill: url(#mk_human_inside); }
 
 .mk_av {
-    fill:url(#mk_av);
-}
+  fill: url(#mk_av); }
 
 .mk_anti_theft {
-    fill:url(#mk_anti_theft);
-}
+  fill: url(#mk_anti_theft); }
 
 .mk_fast_cleanup {
-    fill:url(#mk_fast_cleanup);
-}
+  fill: url(#mk_fast_cleanup); }
 
 .mk_duplicate_finder {
-    fill:url(#mk_duplicate_finder);
-}
+  fill: url(#mk_duplicate_finder); }
 
 .mk_geek_on_demand {
-    fill:url(#mk_geek_on_demand);
-}
+  fill: url(#mk_geek_on_demand); }
 
 .mk_update_tracker {
-    fill:url(#mk_update_tracker);
-}
+  fill: url(#mk_update_tracker); }
 
 .mk_backup {
-    fill:url(#mk_backup);
-}
+  fill: url(#mk_backup); }
 
 .mk_file_recovery {
-    fill:url(#mk_file_recovery);
-}
-    
+  fill: url(#mk_file_recovery); }
+
 .mk_disk_usage {
-    fill:url(#mk_disk_usage);
-}
+  fill: url(#mk_disk_usage); }
 
 .mk_smart_uninstaller {
-    fill:url(#mk_smart_uninstaller);
-}
+  fill: url(#mk_smart_uninstaller); }
 
 .mk_data_encryptor {
-    fill:url(#mk_data_encryptor);
-}
+  fill: url(#mk_data_encryptor); }
 
 .mk_default_apps {
-    fill:url(#mk_default_apps);
-}
+  fill: url(#mk_default_apps); }
 
 .mk_shredder {
-    fill:url(#mk_shredder);
-}
+  fill: url(#mk_shredder); }
 
 .mk_files_finder {
-    fill:url(#mk_files_finder);
-}
+  fill: url(#mk_files_finder); }
 
 .mk_login_items {
-    fill:url(#mk_login_items);
-}
+  fill: url(#mk_login_items); }
 
 .mk_memory_cleaner {
-    fill:url(#mk_memory_cleaner);
-}
-
-/*SVG ends*/
-
-.tools_wrapper {
-    background-color: #f3f6f8;
-    height: 520px;
-    clear:left;
-}
+  fill: url(#mk_memory_cleaner); }
 
 .tools_content {
-    width: 1000px;
-    margin: 0 auto;
-}
+  width: 1000px;
+  margin: 0 auto; }
+
+.tools_wrapper {
+  background-color: #f3f6f8;
+  height: 520px;
+  clear: left; }
 
 .tools_heading {
-    font-size: 2.4em; 
-    font-weight: 200;
-    padding:40px 0;
-    text-align: center;
+  font-size: 2.4em;
+  font-weight: 200;
+  padding: 40px 0;
+  text-align: center; }
 
-}
 .clean_save {
-    color: #00aeff;
-}
+  color: #00aeff; }
 
 .float_left {
-    float: left;
-}
-
-/*Tool right part*/ 
+  float: left; }
 
 .tools_right_part {
-    margin-left: 696px;
-    border-radius: 5px; 
-    border: 1px solid #dde3e7;
-    font-weight: 400;
-    font-size: 1.4em;
-}
-
-.tools_right_part:after {
-    clear: both;
-}
+  margin-left: 696px;
+  border-radius: 5px;
+  border: 1px solid #dde3e7;
+  font-weight: 400;
+  font-size: 1.4em; }
+  .tools_right_part:after {
+    clear: both; }
 
 .tool_name {
-    border-bottom : 1px solid #dde3e7;
-    text-transform: uppercase;
-    
-}
-
-.tool_name p {
+  border-bottom: 1px solid #dde3e7;
+  text-transform: uppercase; }
+  .tool_name p {
     margin-top: 10px;
     text-align: center;
-    margin: 17px 0;
-    
-}
+    margin: 17px 0; }
 
 .tool_description {
-    line-height: 24px;
-    background-color: #FFF;
-    height: 180px;
-    color: #737373;
-    vertical-align: center;
-    text-align: center;
-    padding-top: 34px;
-}
-
-.tool_description p {
-    padding:0 24px;
+  line-height: 24px;
+  background-color: #FFF;
+  height: 180px;
+  color: #737373;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 34px; }
+  .tool_description p {
+    padding: 0 24px;
     height: 75px;
-    overflow: hidden;
-}
+    overflow: hidden; }
 
 #btn_download {
-    border-radius: 5px;
-    border:1px solid #00aeff;
-    color:#00aeff;
-    font-weight: 600;
-    padding: 17px 38px;
-    background-color: #FFF;
-    font-size: 1em;
-    margin-top: 30px;
-    font-family: proxima-nova, sans-serif;
-}
-
-#btn_download {
-    color:#00aeff;
-}
-
-#btn_download:hover {
+  border-radius: 5px;
+  border: 1px solid #00aeff;
+  color: #00aeff;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 17px 38px;
+  background-color: #FFF;
+  margin-top: 30px; }
+  #btn_download a {
+    color: #00aeff; }
+  #btn_download:hover {
     outline: none;
-    background-color:#00aeff; 
-}
-
-#btn_download:hover a {
-    color:#FFF;
-}
+    background-color: #00aeff; }
+    #btn_download:hover a {
+      color: #FFF; }
 
 .img_wrapper {
-    padding-top: 17px;
-    width: 75px;
-    margin:0 auto;
-}
-
-.memory_cleaner {
-    height: 84px;
-    width: 75px;
-    background: url("images/sprite_icon.png") -182px -12px;
-}
+  padding-top: 17px;
+  width: 75px;
+  margin: 0 auto; }
 
 .human_inside {
-    height: 84px;
-    width: 79px;
-    background: url("images/sprite_icon.png") 0px -12px;
-    
-}
+  background: url("images/sprite_icon.png") 0px -12px; }
 
 .av {
-    height: 84px;
-    width: 70px;
-    background: url("images/sprite_icon.png") -1270px -12px;
-    
-}
+  background: url("images/sprite_icon.png") -1270px -12px; }
 
 .anti_theft {
-    height: 84px;
-    width: 84px;
-    background: url("images/sprite_icon.png") -264px -12px;
-    
-}
+  background: url("images/sprite_icon.png") -264px -12px; }
 
 .fast_cleanup {
-    height: 84px;
-    width: 82px;
-    background: url("images/sprite_icon.png") -1340px -12px;
-    
-}
+  background: url("images/sprite_icon.png") -1340px -12px; }
 
 .duplicate_finder {
-    height: 84px;
-    width: 90px;
-    background: url("images/sprite_icon.png") -1424px -12px;
-    
-}
-
-.duplicate_finder {
-    height: 84px;
-    width: 90px;
-    background: url("images/sprite_icon.png") -1424px -12px;
-    
-}
+  background: url("images/sprite_icon.png") -1424px -12px; }
 
 .geek_on_demand {
-    height: 84px;
-    width: 92px;
-    background: url("images/sprite_icon.png") -80px -12px;
-}
+  background: url("images/sprite_icon.png") -80px -12px; }
 
 .update_tracker {
-    height: 84px;
-    width: 88px;
-    background: url("images/sprite_icon.png") -1090px -12px;
-}
+  background: url("images/sprite_icon.png") -1090px -12px; }
 
 .backup {
-    height: 84px;
-    width: 90px;
-    background: url("images/sprite_icon.png") -357px -12px;
-    
-}
+  background: url("images/sprite_icon.png") -357px -12px; }
 
 .file_recovery {
-    height: 84px;
-    width: 80px;
-    background: url("images/sprite_icon.png") -1177px -12px;
-}
+  background: url("images/sprite_icon.png") -1177px -12px; }
 
 .disk_usage {
-    height: 84px;
-    width: 100px;
-    background: url("images/sprite_icon.png") -990px -12px;
-}
+  background: url("images/sprite_icon.png") -990px -12px; }
 
 .smart_uninstaller {
-    height: 84px;
-    width: 90px;
-    background: url("images/sprite_icon.png") -889px -12px;
-}
+  background: url("images/sprite_icon.png") -889px -12px; }
 
 .data_encryptor {
-    height: 84px;
-    width: 80px;
-    background: url("images/sprite_icon.png") -536px -7px;
-}
+  background: url("images/sprite_icon.png") -536px -7px; }
 
 .default_apps {
-    height: 84px;
-    width: 80px;
-    background: url("images/sprite_icon.png") -456px -12px;
-}
+  background: url("images/sprite_icon.png") -456px -12px; }
 
 .shredder {
-    height: 84px;
-    width: 82px;
-    background: url("images/sprite_icon.png") -795px -12px;
-}
+  background: url("images/sprite_icon.png") -795px -12px; }
 
 .files_finder {
-    height: 84px;
-    width: 90px;
-    background: url("images/sprite_icon.png") -699px -12px;
-}
+  background: url("images/sprite_icon.png") -699px -12px; }
 
 .login_items {
-    height: 84px;
-    width: 72px;
-    background: url("images/sprite_icon.png") -625px -12px;
-}
+  background: url("images/sprite_icon.png") -625px -12px; }
 
-/*Tools part Ends*/
+.memory_cleaner {
+  background: url("images/sprite_icon.png") -182px -12px; }
 
-/*Reviews Part Starts*/ 
+/* I was thinking about nested @each directive , but at the end that did not seem to me as something that get me easier to the desired result,
+probably there is collest way to work with sprites will search for it. But for now will simply copy width and height of each element */
+.memory_cleaner {
+  height: 84px;
+  width: 75px;
+  background: url("images/sprite_icon.png") -182px -12px; }
+
+.human_inside {
+  height: 84px;
+  width: 79px;
+  background: url("images/sprite_icon.png") 0px -12px; }
+
+.av {
+  height: 84px;
+  width: 70px;
+  background: url("images/sprite_icon.png") -1270px -12px; }
+
+.anti_theft {
+  height: 84px;
+  width: 84px;
+  background: url("images/sprite_icon.png") -264px -12px; }
+
+.fast_cleanup {
+  height: 84px;
+  width: 82px;
+  background: url("images/sprite_icon.png") -1340px -12px; }
+
+.duplicate_finder {
+  height: 84px;
+  width: 90px;
+  background: url("images/sprite_icon.png") -1424px -12px; }
+
+.duplicate_finder {
+  height: 84px;
+  width: 90px;
+  background: url("images/sprite_icon.png") -1424px -12px; }
+
+.geek_on_demand {
+  height: 84px;
+  width: 92px;
+  background: url("images/sprite_icon.png") -80px -12px; }
+
+.update_tracker {
+  height: 84px;
+  width: 88px;
+  background: url("images/sprite_icon.png") -1090px -12px; }
+
+.backup {
+  height: 84px;
+  width: 90px;
+  background: url("images/sprite_icon.png") -357px -12px; }
+
+.file_recovery {
+  height: 84px;
+  width: 80px;
+  background: url("images/sprite_icon.png") -1177px -12px; }
+
+.disk_usage {
+  height: 84px;
+  width: 100px;
+  background: url("images/sprite_icon.png") -990px -12px; }
+
+.smart_uninstaller {
+  height: 84px;
+  width: 90px;
+  background: url("images/sprite_icon.png") -889px -12px; }
+
+.data_encryptor {
+  height: 84px;
+  width: 80px;
+  background: url("images/sprite_icon.png") -536px -7px; }
+
+.default_apps {
+  height: 84px;
+  width: 80px;
+  background: url("images/sprite_icon.png") -456px -12px; }
+
+.shredder {
+  height: 84px;
+  width: 82px;
+  background: url("images/sprite_icon.png") -795px -12px; }
+
+.files_finder {
+  height: 84px;
+  width: 90px;
+  background: url("images/sprite_icon.png") -699px -12px; }
+
+.login_items {
+  height: 84px;
+  width: 72px;
+  background: url("images/sprite_icon.png") -625px -12px; }
 
 .reviews_content {
-    width: 1000px;
-    margin:0 auto;
-    height: 439px;
-}
+  width: 1000px;
+  margin: 0 auto;
+  height: 439px; }
 
 .review_header {
-    color:#646464;
-    font-size: 2.4em;
-    line-height: 48px;
-    text-align: center;
-    font-weight: 200;
-    padding: 41px 0;
-}
-
-.review_holder {
-
-}
+  color: #646464;
+  font-size: 2.4em;
+  line-height: 48px;
+  text-align: center;
+  font-weight: 200;
+  padding: 41px 0; }
 
 .review {
-    color: #737373;
-    font-size: 1.6em;
-    font-weight: 200;
-    padding-top: 50px;
-    
-    background-image: url(images/stars.png);
-    background-repeat: no-repeat;
-    background-position: 28px 21px;
-    border:1px solid #dde3e7;
-    border-radius: 5px;
-    float: left;
-    width: 311px;
-    margin-left: 30px;
-    line-height: 22px;
-}
-
+  color: #737373;
+  font-size: 1.6em;
+  font-weight: 200;
+  padding-top: 50px;
+  background-image: url(images/stars.png);
+  background-repeat: no-repeat;
+  background-position: 28px 21px;
+  border: 1px solid #dde3e7;
+  border-radius: 5px;
+  float: left;
+  width: 311px;
+  margin-left: 30px;
+  line-height: 22px; }
 
 .st_review {
-    margin-left: 0;
-}
+  margin-left: 0; }
 
 .bold2 {
-    font-weight: 600;
-    color: 111111;
-}
+  font-weight: 600;
+  color: 111111; }
 
 .upper_part {
-    
-    padding-left: 28px;
-    height: 99px;
-}
-    
-
+  padding-left: 28px;
+  height: 99px; }
 
 .lower_part {
-    padding-top: 19px;
-    border-top:1px solid #dde3e7;
-    padding-left: 28px;
-    padding-bottom: 21px;
-}
-
-/*Reviews Part Ends*/
+  padding-top: 19px;
+  padding-left: 28px;
+  padding-bottom: 21px;
+  border-top: 1px solid #dde3e7; }
 
 .line2 {
-    border-bottom:1px solid #dde3e7;
-}
+  border-bottom: 1px solid #dde3e7; }
 
 .call_to_action_repeat {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 39px 0;
-    background-repeat: no-repeat;
-    background-image:url(images/5stars.png), url(images/map.png);
-    background-position: 90px 41px, 767px 41px;
-}
+  width: 1000px;
+  margin: 0 auto;
+  padding: 39px 0;
+  background-repeat: no-repeat;
+  background-image: url(images/5stars.png), url(images/map.png);
+  background-position: 90px 41px, 767px 41px; }
 
 .center_spacing {
-    margin-left: 309px;
-}
-
-/*Footer*/
+  margin-left: 309px; }
 
 .nav_wrapper {
-    background-color: #fafdff;
-    border:1px solid #dde3e7;
-    padding: 20px 0;
-}
+  background-color: #fafdff;
+  border: 1px solid #dde3e7;
+  padding: 20px 0; }
 
 .nav_content {
-    width: 1000px;
-    margin:0 auto;
-    text-align: center;
-    
-}
-
-.nav_content li {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center; }
+  .nav_content li {
     display: inline;
     margin-left: 19px;
-    font-size: 1.4em;
-    
-}
-
- li:first-child {
-    margin-left: 0;
-}
-
-.nav_content li a {
-    color:#434343;
-}
+    font-size: 1.4em; }
+    .nav_content li:first-child {
+      margin-left: 0; }
+    .nav_content li a {
+      color: #434343; }
 
 .copyright_wrapper {
-    background-color: #f4fafd;
-}
+  background-color: #f4fafd; }
 
 .copyright_content {
-    color:#737373;
-    width: 1000px; 
-    margin:0 auto;
-    text-align: center;
-    font-size: 1.2em;
-    line-height: 21px;
-    padding:15px 0;
-}
+  color: #737373;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 21px;
+  padding: 15px 0; }
 
 #learn_more {
-    color: #00aeff;
-}
+  color: #00aeff; }
 
 #copyright {
-    color:#989898;
-}
+  color: #989898; }
+
+html {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #3a3a3a; }
+
+body {
+  background-color: #FFF; }
+
+a {
+  color: #FFF; }
+  a:active {
+    color: #00aeff; }
+  a:visited {
+    color: #FFF; }
+  a:hover {
+    color: #FFF; }
+
+/*# sourceMappingURL=index.css.map */

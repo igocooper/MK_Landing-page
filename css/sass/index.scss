@@ -1,0 +1,22 @@
+
+@import 'mixin', 'header','content_steps','content_tools','content_reviews','footer';
+
+html {
+    font: {
+    family: proxima-nova, sans-serif;
+    weight: 400 ;
+    size: 10px;
+    }
+    color: #3a3a3a;
+}
+
+body {
+    background-color: #FFF;
+}
+
+a {
+    color:#FFF;
+    &:active {color:#00aeff;}
+&:visited {color:#FFF;}
+&:hover {color:#FFF;}
+}

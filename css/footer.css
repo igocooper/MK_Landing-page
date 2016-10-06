@@ -1,0 +1,37 @@
+.nav_wrapper {
+  background-color: #fafdff;
+  border: 1px solid #dde3e7;
+  padding: 20px 0; }
+
+.nav_content {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center; }
+  .nav_content li {
+    display: inline;
+    margin-left: 19px;
+    font-size: 1.4em; }
+    .nav_content li:first-child {
+      margin-left: 0; }
+    .nav_content li a {
+      color: #434343; }
+
+.copyright_wrapper {
+  background-color: #f4fafd; }
+
+.copyright_content {
+  color: #737373;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 21px;
+  padding: 15px 0; }
+
+#learn_more {
+  color: #00aeff; }
+
+#copyright {
+  color: #989898; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,42 @@
+@import "mixin";
+
+header {
+    width: 100%;
+    background-color: #fafdff;
+    box-shadow: 0 5px 5px #cfcdcd;
+    margin-bottom: 59px;
+    
+    p {
+        font: {
+            size: 3.6em;
+            weight: 200;
+        }
+        color: #646464;
+        line-height: 72px;
+        margin-left: 25%;
+    }
+}
+
+.header_content {
+    @include relative;
+    @include center;
+}
+
+.mk_logo {
+    width: 134px;
+    height: 30px;
+    float: left;
+    margin: 20px 0;
+}
+
+.frame {
+    border: 1px solid #00aeff;
+    border-radius: 5px;
+    padding: 6px 9px;
+}
+
+#arrow {
+    position: absolute;
+    top: -2px;
+    left: 176px;
+}

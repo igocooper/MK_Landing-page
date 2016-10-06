@@ -1,0 +1,12 @@
+@mixin relative {
+    position: relative;
+}
+
+@mixin center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@mixin line {
+    border-bottom: 1px solid #dde3e7;
+}

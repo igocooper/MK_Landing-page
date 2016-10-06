@@ -1,0 +1,185 @@
+@import "mixin";
+
+$steps: (1: step1, 2: step2, 3: step3);
+$trust: (forbes, dezzain, machmachines, cnn );
+.steps_content {
+    @include center;
+}
+
+.left_col {
+    float: left;
+    width: 387px;
+}
+
+.right_col {
+    margin-left: 389px;
+    
+}
+
+.step {
+    color: #414141;
+    font:{
+        size: 1.8em;
+        weight: 200;
+    }
+    border: 1px solid #dde3e7;
+    padding-left: 70px;
+    height: 70px;
+    width: 317px;
+    margin-bottom: 19px;
+    background-position: 22px 22px;
+    background-repeat: no-repeat;
+    p {
+    line-height: 70px;
+}
+}
+
+@each $number, $icon in $steps {
+    .step#{$number} {
+        @extend .step;
+        background-image: url(images/#{$icon}_icon.png);
+    }
+}
+
+.step_txt {
+    font-weight: 600;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+#download_now_txt {
+    color:#00aeff;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.btn_download_lg {
+    background: url(images/download_btn_icon.png), #00afff;
+    background-repeat: no-repeat;
+    background-position: 328px 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 387px;
+    height: 79px;
+    padding: 0;
+    
+    a   {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+        &:hover { background-color: #00a2ff;}
+}
+
+.gif {
+    @include relative;
+    height: 325px;
+    background: {
+        image: url(images/mac_animated.gif);
+        repeat: no-repeat;
+        position: 0 -34px ;
+    }
+}
+
+#cloud {
+    position: absolute;
+    top:-34px;
+    left:110px;
+}
+
+#download_here_txt {
+    padding-top: 14px;
+    text-align: center;
+    a {
+    font-size: 1.4em;
+    color: #018fd0;
+    text-decoration: underline;
+    }
+}
+
+.line {
+    @include line;
+    height: 62px;
+    margin-bottom: 20px;
+}
+
+.trust_wrapper {
+    @include center;
+    height: 75px;
+
+}
+
+.shopper_approved {
+    background: {
+        image: url(images/shopper_approved.png);
+        repeat: no-repeat;
+        position: 0 0 ;
+    }
+    height: 54px;
+    margin-left: 357px;
+    
+   
+}
+
+.this_week_download {
+    background: {
+        image: url(images/this_week_download.png);
+        repeat: no-repeat;
+        position: 113px 0 ;
+    }
+    height: 54px;
+    width: 317px;
+    float: left;
+}
+
+@each $source in $trust {
+    .#{$source} {
+    background: {
+        image: url(images/#{$source}.png);
+        repeat: no-repeat;
+        position: 0 11px;
+    }
+    float: left;
+        &:hover {
+            background-image: url(images/#{$source}_hover.png);
+        }
+    }
+}
+
+.cnn {
+    @extend .cnn;
+    height: 75px;
+    width: 66px;
+    margin-left: 134px;
+}
+
+.forbes {
+    @extend .forbes;
+    height: 75px;
+    width: 109px;
+    margin-left: 75px;
+}
+
+.machmachines {
+    @extend .machmachines;
+    height: 75px;
+    float: left;
+    width: 149px;
+    margin-left: 86px;
+}
+
+.dezzain {
+    @extend .dezzain;
+    height: 75px;
+    width: 150px;
+    float: left;
+    margin-left: 99px;
+}
+
+
+
